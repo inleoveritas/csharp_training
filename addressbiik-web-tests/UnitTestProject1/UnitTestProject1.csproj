@@ -63,7 +63,9 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Groupcreationtest.cs" />
+    <Compile Include="..\..\..\..\..\Desktop\Groupcreationtest.cs">
+      <Link>Groupcreationtest.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
